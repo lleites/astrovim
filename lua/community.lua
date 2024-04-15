@@ -5,8 +5,13 @@
 ---@type LazySpec
 return {
   "AstroNvim/astrocommunity",
+  -- Language packs
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.python-ruff" },
+  { import = "astrocommunity.pack.markdown" },
+  -- NeoTest
   { import = "astrocommunity.test.neotest" },
+  -- Move around
   { import = "astrocommunity.motion.leap-nvim" },
+  { import = "astrocommunity.project.nvim-spectre" },
 }
